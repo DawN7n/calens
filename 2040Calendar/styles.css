@@ -1,0 +1,130 @@
+body {
+	
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-family: Perpetua Titling MT;
+	text-align: center;
+	background-color: #F3CFC6;
+}
+
+/* Style for main calendar section */
+.calendar,
+	.jancalendar,
+	.febcalendar,
+	.marcalendar,
+	.aprcalendar,
+	.maycalendar,
+	.juncalendar,
+	.julcalendar,
+	.augcalendar,
+	.sepcalendar,
+	.octcalendar,
+	.novcalendar,
+	.deccalendar 
+{
+	margin: 200px auto;
+	padding:50px;
+	border-radius: 75px;
+	box-shadow: 0 30px 50px rgb(250, 160, 160);
+	width: 200%;
+	max-width: 1000px;
+	background-image: url('sas.jpg');
+	background-position: center;
+
+}
+
+.febcalendar {
+	background-image: url('kor.jpg');
+	background-position: center;
+	background-size: 1300px;
+}
+
+.marcalendar {
+	background-image: url('spider.jpg');
+	background-position: center;
+	background-size: 1300px
+}
+
+.aprcalendar {
+	background-image: url('buns.jpg');
+	background-position: center;
+	background-size: 130%;
+}
+
+.maycalendar {
+	background-image: url('asd.jpg');
+	background-position: center;
+	background-size: 1500px;
+
+}
+
+.juncalendar {
+	background-image: url('moon.jpg');
+	background-position: center;
+	background-size: 800px;
+}
+
+.julcalendar {
+	background-image: url('like.jpg');
+	background-position: center;
+	background-size: 2000px;
+}
+
+.augcalendar {
+	background-image: url('catss.jpg');
+	background-position: center;
+	background-size: 1500px;
+}
+
+.sepcalendar {
+	background-image: url('cute.jpg');
+	background-position: center;
+	background-size: 1500px;
+}
+
+.octcalendar {
+	background-image: url('catts.jpg');
+	background-position: center;
+	background-size: 1500px;
+}
+
+.novcalendar {
+	background-image: url('jaja.jpg');
+	background-position: center;
+	background-size: 1500px;
+}
+
+.deccalendar {
+	background-image: url('hehe.jpg');
+	background-position: center;
+	background-size: 1250px;
+}
+
+h1 {
+    margin-top: 0;
+    color: #770737;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+	color: #C21E56;
+	border: 0px solid #ccc;
+	padding: 25px;
+	text-align: center;
+}
+
+table .days th {
+	background-color: #A95C68;
+	color: #F3CFC6;
+}
+
+
